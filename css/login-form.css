@@ -1,0 +1,20 @@
+.todo__login-form {
+  text-align: center;
+}
+
+.todo__login-form input {
+  background: none;
+  text-align: center;
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  margin-bottom: 25px;
+}
+
+.todo__login-form_name {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
