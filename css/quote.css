@@ -1,3 +1,14 @@
 .todo__wise-saying {
-  display: block;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  opacity: 0.5;
+  margin: 30px;
+}
+
+.todo__wise-saying .first span {
+  text-align: center;
+}
+.todo__wise-saying .last span {
+  text-align: center;
 }

@@ -10,42 +10,44 @@
   <body>
     <!-- todo -->
     <div class="todo">
-      <div>
-        <!-- todo__clock -->
-        <h1 class="todo__clock" id="clock">00:00:00</h1>
-        <!-- todo__login-form -->
-        <form class="hidden todo__login-form" id="login-form">
-          <input
-            required
-            maxlength="15"
-            type="text"
-            placeholder="What is your name?"
-          />
-        </form>
-        <!-- todo__login-form_name -->
-        <h1 id="greeting" class="hidden todo__login-form_name"></h1>
+      <!-- todo__clock -->
+      <h1 class="todo__clock" id="clock">00:00:00</h1>
+      <!-- todo__login-form -->
+      <form class="hidden todo__login-form" id="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+      </form>
+      <!-- todo__login-form_name -->
+      <h1 id="greeting" class="hidden todo__login-form_name"></h1>
 
-        <!-- todo__list-input -->
-        <form id="todo-form" class="todo__main-list">
-          <input
-            required
-            type="text"
-            placeholder="Write a To Do and Press Enter."
-          />
-        </form>
-        <!-- todo__list-ul -->
-        <ul id="todo-list" class="todo__list-ul"></ul>
+      <!-- todo__list-input -->
+      <form id="todo-form" class="todo__main-list">
+        <input
+          required
+          type="text"
+          placeholder="Write a To Do and Press Enter."
+        />
+      </form>
+      <!-- todo__list-ul -->
+      <ul id="todo-list" class="todo__list-ul"></ul>
 
-        <!-- todo__ wise-saying -->
-
-        <!--
-        <div id="weather">
-          <span></span>
-          <span></span>
-        </div>-->
-      </div>
+      <!-- todo__ wise-saying -->
       <div id="quote" class="todo__wise-saying">
-        <span></span><br />
+        <div class="first">
+          <span></span>
+        </div>
+        <div class="last">
+          <span></span>
+        </div>
+      </div>
+
+      <!-- weather -->
+      <div class="todo__weather" id="weather">
+        <span></span>
         <span></span>
       </div>
     </div>

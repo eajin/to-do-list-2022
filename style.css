@@ -1,5 +1,8 @@
 @import "reset.css";
 /* css */
+@import "css/weather.css";
+@import "css/list.css";
+@import "css/quote.css";
 @import "css/login-form.css";
 @import "css/clock.css";
 @import "css/hidden.css";

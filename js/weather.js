@@ -1,4 +1,3 @@
-/*
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
 const API_KEY = "54241f53552fd2a401d17e5e6dd78ac5";
@@ -19,4 +18,3 @@ function onGeoError() {
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
-*/
